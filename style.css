@@ -1,0 +1,23 @@
+.first-column {
+	text-align-last: center;
+}
+
+.first-row {
+	text-align-last: center;
+}
+
+.second-column {
+	background-color: rgba(255, 221, 87, .2);
+}
+
+.third-column {
+	background-color: rgba(0, 209, 178, .2);
+}
+
+.forth-column {
+	background-color: rgba(50, 115, 220, .2);
+}
+
+.last-row {
+	background-color: rgba(255, 56, 96, .5);
+}

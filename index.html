@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>路上試験採点表</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+        <div class="box">
+            <h1 class="title">路上試験採点表</h1>
+            <table class="table is-fullwidth">
+                <thead>
+                    <tr>
+                        <th class="first-column">減点数</th>
+                        <th colspan="1" class="first-row second-column">20</th>
+                        <th colspan="2" class="first-row third-column">10</th>
+                        <th colspan="2" class="first-row forth-column">5</th>
+                    </tr>
+                </thead>
+                
+              <tbody>
+                <tr>
+                    <td class="first-column" rowspan="2">安全措置<br>運転姿勢</td>
+                    <td class="second-column" rowspan="2"></td>
+                    <td rowspan="2" class="third-column">
+                        <div class="dropdown">
+                            <div class="dropdown-trigger">
+                                <button class="button is-primary" aria-haspopup="true" aria-controls="dropdown-menu1">
+                                    <span>措置(帯)</span>
+                                </button>
+                            </div>
+                  
+                            <div class="dropdown-menu" id="dropdown-menu1" role="menu">
+                                <div class="dropdown-content">
+                                    <div>
+                                      <div class="dropdown-item">
+                                          <p>シートベルトをしないで発進した時</p>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="third-column">特別減点</td>
+                    <td rowspan="2" class="forth-column">
+                        措置(
+                            <div class="dropdown">
+                                <div class="dropdown-trigger">
+                                    <button class="button is-info" aria-haspopup="true" aria-controls="dropdown-menu1">
+                                        <span>ドア</span>
+                                    </button>
+                                </div>
+                      
+                                <div class="dropdown-menu" id="dropdown-menu1" role="menu">
+                                    <div class="dropdown-content">
+                                        
+                                          <div class="dropdown-item">
+                                              <p>ドアを完全に閉めないで走行した時。</p>
+                                          </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>, 
+                            <div class="dropdown">
+                                <div class="dropdown-trigger">
+                                    <button class="button is-info" aria-haspopup="true" aria-controls="dropdown-menu1">
+                                        <span>鏡</span>
+                                    </button>
+                                </div>
+                      
+                                <div class="dropdown-menu" id="dropdown-menu1" role="menu">
+                                    <div class="dropdown-content">
+                                        
+                                          <div class="dropdown-item">
+                                              <p>ルームミラーを合わせなかった場合。</p>
+                                          </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>, 
+                            <div class="dropdown">
+                                <div class="dropdown-trigger">
+                                    <button class="button is-info" aria-haspopup="true" aria-controls="dropdown-menu1">
+                                        <span>ギア</span>
+                                    </button>
+                                </div>
+                      
+                                <div class="dropdown-menu" id="dropdown-menu1" role="menu">
+                                    <div class="dropdown-content">
+                                        
+                                          <div class="dropdown-item">
+                                              <p>エンジンをかける時、ギアを入れたままクラッチを踏まずにエンジンをかけた時。</p>
+                                          </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>,
+                            <div class="dropdown">
+                                <div class="dropdown-trigger">
+                                    <button class="button is-info" aria-haspopup="true" aria-controls="dropdown-menu1">
+                                        <span>手B</span>
+                                    </button>
+                                </div>
+                      
+                                <div class="dropdown-menu" id="dropdown-menu1" role="menu">
+                                    <div class="dropdown-content">
+                                        
+                                          <div class="dropdown-item">
+                                              <p>ハンドブレーキを戻さずに発進した時。</p>
+                                          </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>,
+                            <div class="dropdown">
+                                <div class="dropdown-trigger">
+                                    <button class="button is-info" aria-haspopup="true" aria-controls="dropdown-menu1">
+                                        <span>B</span>
+                                    </button>
+                                </div>
+                      
+                                <div class="dropdown-menu" id="dropdown-menu1" role="menu">
+                                    <div class="dropdown-content">
+                                        
+                                          <div class="dropdown-item">
+                                              <p>AT車でブレーキかハンドブレーキをかけずにエンジン始動した場合。</p>
+                                          </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>,
+                            <div class="dropdown">
+                                <div class="dropdown-trigger">
+                                    <button class="button is-info" aria-haspopup="true" aria-controls="dropdown-menu1">
+                                        <span>A変速</span>
+                                    </button>
+                                </div>
+                      
+                                <div class="dropdown-menu" id="dropdown-menu1" role="menu">
+                                    <div class="dropdown-content">
+                                        
+                                          <div class="dropdown-item">
+                                              <p>AT車で、停止中にフットブレーキ又はハンドブレーキを用いずにチェンジレバーを操作した時。</p>
+                                          </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>,
+                            
+
+
+                        )
+                    </td>
+                    <td class="forth-column">特別減点</td>
+                </tr>
+                <tr>
+                  <td class="third-column"></td>
+                  <td class="forth-column"></td>
+                </tr>
+                <tr>
+                  <td class="first-column">発進</td>
+                  <td class="second-column">逆行中</td>
+                  <td class="third-column">
+                    <div class="dropdown">
+                        <div class="dropdown-trigger">
+                            <button class="button is-primary" aria-haspopup="true" aria-controls="dropdown-menu1">
+                                <span>逆行小</span>
+                            </button>
+                        </div>
+              
+                        <div class="dropdown-menu" id="dropdown-menu1" role="menu">
+                            <div class="dropdown-content">
+                                
+                                  <div class="dropdown-item">
+                                      <p> 進みたい方向とは逆に0.3 ~ 0.5ｍ進んだ場合。</p>
+                                      <hr class="dropdown-divider">
+                                      <p>[補足]３０ｃｍとは足のサイズ＋α。少しでも下がれば適用対象となり得る。</p>    
+                                  </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                  </td>
+                  <td class="third-column">
+                    <div class="dropdown">
+                        <div class="dropdown-trigger">
+                            <button class="button is-primary" aria-haspopup="true" aria-controls="dropdown-menu1">
+                                <span>エンスト(路上)</span>
+                            </button>
+                        </div>
+              
+                        <div class="dropdown-menu" id="dropdown-menu1" role="menu">
+                            <div class="dropdown-content">
+                                
+                                  <div class="dropdown-item">
+                                      <p> 操作不良のため、エンジンが停止した場合。</p>
+                                      <hr class="dropdown-divider">
+                                      <p>[備考]次の場合は適用しない。<br>
+                                        (1) 脱輪(大)防止時のエンスト<br>
+                                        (2)バイクの急制動時のエンスト
+                                    　</p>
+                                    
+                                        
+                                  </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                      
+                      <br>
+                      <div class="dropdown">
+                        <div class="dropdown-trigger">
+                            <button class="button is-primary" aria-haspopup="true" aria-controls="dropdown-menu1">
+                                <span>発進手間どり(路上)</span>
+                            </button>
+                        </div>
+              
+                        <div class="dropdown-menu" id="dropdown-menu1" role="menu">
+                            <div class="dropdown-content">
+                                
+                                  <div class="dropdown-item">
+                                      <p> 発進タイミングの判断不良又は操作不良のため、発進に手間取った次の場合。</p>
+                                      <br>
+                                      <p>1. 通常発進すべき状況(信号が青に変わったなど)の時から、おおむね5秒以内に発進しない時。</p>
+                                      <br>
+                                      <p>2. 前車がおおむね15メートル以上進行しても発進しない時。</p>
+                                      <br>
+                                      <p>3. エンスト後おおむね5秒以内にエンジンを始動させない時。</p>
+                                      
+                                        
+                                  </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                　</td>
+                  <td class="forth-column"></td>
+                  <td class="forth-column">Aむら(急発, ノック, 空転)<br>エンスト(場内)</td>
+                </tr>
+                <tr>
+                  <td class="first-column">速度維持</td>
+                  <td colspan="1" class="second-column"></td>
+                  <td class="third-column"></td>
+                  <td class="third-column">課題外速度</td>
+                  <td class="forth-column"></td>
+                  <td class="forth-column"></td>
+                </tr>
+                <tr>
+                  <td class="first-column">合図<br>安全確認</td>
+                  <td class="second-column"></td>
+                  <td colspan="2" class="third-column">
+                    不確認(発進, 後退, 周囲, 巻き込み, 変更, 交差点, 踏切, 脇見, 降車)
+                  </td>
+                  <td colspan="1" class="forth-column">
+                    発進合図(しない, 続, もどし) <br>
+                    変更合図(しない, 続, もどし, 不適) <br>
+                    右左折合図(しない, 続, もどし, 不適)
+                  </td>
+                  <td class="forth-column"></td>
+                </tr>
+                <tr>
+                    <td class="first-column">制動</td>
+                    <td class="second-column">速過ぎ大(速い, カーブ)</td>
+                    <td colspan="2" class="third-column">
+                        クリープ(路上), 速過ぎ小(速い, カーブ)
+                    </td>
+                    <td class="forth-column">
+                        エンブレ(坂) <br>
+                        クリープ(場内)
+                    </td>
+                    <td class="forth-column">
+                        エンブレ(断, 前後) <br>
+                        ブレーキ(構, 断, 待, 停車, 不円滑)
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="first-column">操向</td>
+                    <td class="second-column"></td>
+                    <td colspan="2" class="third-column">
+                        切り返し(路上), 急ハンドル, ふらつき小(S・半)
+                    </td>
+                    <td colspan="2" class="forth-column">
+                        切り返し(場内)
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="first-column">車体間隔</td>
+                    <td class="second-column">側方間隔(移・可, 不, 前), 脱輪中, 接触小</td>
+                    <td colspan="2" class="third-column">
+                        巻き込み(二輪, 離), 脱輪小(路上)
+                    </td>
+                    <td colspan="2" class="forth-column">
+                        停止位置(線・前・後), 脱輪小(場内)
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="first-column">通行区分</td>
+                    <td class="second-column">路側帯</td>
+                    <td colspan="2" class="third-column">
+                        通行帯(右端, 区分, 線, 低速), 追いつかれ(増速, 避譲), バス等優先(入, 出), 軌道敷内(入, 出)
+                    </td>
+                    <td colspan="2" class="forth-column"></td>
+                  </tr>
+                  <tr>
+                    <td class="first-column">進路変更</td>
+                    <td class="second-column">
+                        変更禁止(みだり, 標示)
+                    </td>
+                    <td colspan="2" class="third-column">
+                        交差点変更(左しない, 左遅, 右振, 右しない, 右遅, 右離, 左振) 
+                    </td>
+                    <td colspan="2" class="forth-column"></td>
+                  </tr>
+                  <tr>
+                    <td class="first-column">直進<br>右左折等</td>
+                    <td class="second-column">
+                        徐行(電車, 右左折, 優先路, 広路, 標識, 見通, 角, 頂, 坂), <br>方向別侵入, 侵入禁止(交差, 横歩, 標示, 黄信号), <br> 優先判断(左方, 優先路, 広路, 右折, 一停)
+                    </td>
+                    <td colspan="2" class="third-column">
+                        安全速度, 課題不履行(指定, 直前)
+                    </td>
+                    <td colspan="2" class="forth-column">交差点内(左大回, 右斜, 右外, 標示)</td>
+                  </tr>
+                  <tr>
+                    <td class="first-column">歩行者保護等</td>
+                    <td class="second-column">
+                        横断車保護(直前速度, 追抜. 安地)
+                    </td>
+                    <td colspan="2" class="third-column">
+                        泥はね運転
+                    </td>
+                    <td colspan="2" class="forth-column"></td>
+                  </tr>
+                  <tr>
+                    <td class="first-column">最高速度, <br>踏切通過, <br>駐車等</td>
+                    <td class="second-column">
+                        緊急車妨害, 合図車妨害(進路, バス), 速度超過, 駐停車違反
+                    </td>
+                    <td colspan="2" class="third-column">
+                        警音器, 急ブレーキ, 車間距離, 安全意識, 駐停車方法(離, 路側帯, 平行), 駐車違反
+                    </td>
+                    <td colspan="2" class="forth-column">踏切内変速, 駐車措置(手B, スイッチ, ギア)</td>
+                  </tr>
+                  <tr>
+                    <td class="first-column">減点小計</td>
+                    <td class="second-column"></td>
+                    <td colspan="2" class="third-column"></td>
+                    <td colspan="2" class="forth-column"></td>
+                  </tr>
+                  <tr>
+                    <td class="first-column">試験中止</td>
+                    <td class="last-row" colspan="5">
+                        逆行大, 発進不能(4回, 信号, 停止, 発進), 暴走, ふらつき大(S, 半), 脱輪大, 接触大, 右側通行(区分, 追越し, はみ禁, 障害), 安全地帯等, 後車妨害(妨害, 時機),信号(赤出, 黄出), <br>進行妨害(左方, 優先路, 広路, 右折, 一停), 横断等禁止(妨害, 標識), 一時不停止, 歩行者保護(歩道, 妨害, 乗客, 進路, 停車, 横断, 身, 老, 園バス),安全間隔(間隔, 徐行), <br>踏切不停止(手前, 立入, 内), 追越し, 割り込み, 安全義務, 通行禁止, 減点超過, 試験官補助(ブレーキ, ハンドル, 指示), 指示違反
+                    </td>
+                  </tr>
+                
+              </tbody>
+            </table>
+          </div>
+    </div>
+  </section>
+  <script src="index.js"></script>
+  </body>
+</html>
